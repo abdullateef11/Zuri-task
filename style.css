@@ -1,0 +1,75 @@
+
+.photo{
+    width: 200px;
+    height: 200px;
+}
+
+.body2{
+    background-color: rgba(156, 156, 155, 0.418);
+}
+
+#tab{
+    text-align: end;
+}
+
+.name{
+    
+    padding: 3px 4px;
+    color: rgb(121, 80, 19);
+    margin: 0px;
+}
+.prof{
+    
+    padding: 1px;
+    color: rgb(121, 80, 19);
+}
+.hobb{
+    
+    padding: 1px;
+    color: rgb(121, 80, 19);
+}
+.prior{
+    padding: 1px;
+    color: rgb(121, 80, 19);
+}
+.skills{
+    padding: 1px;
+    color: rgb(121, 80, 19);
+}
+.title{
+    padding:10px;
+    margin: -15px;
+}
+.direct{
+    text-align: center;
+    color: brown;
+    width: fit-content;
+    margin: 13px 107px;
+}
+.title{
+    color: orangered;
+    text-shadow: 1px 2px 3px 1px;
+    text-align: center;
+}
+form{
+    border: 3px thin rgb(22, 88, 50);
+    font-size:20px;
+}
+.submit{
+
+    padding: 30px 15px;
+    text-align: center;
+    margin-left: 150%;
+    
+}
+.submt{
+    text-align: center;
+    margin-left: 250%;
+    margin-top: 25px;
+}
+
+.cont{
+    color: rgb(180, 192, 7);
+    font-style: italic;
+    margin: 4px 170px;
+}
