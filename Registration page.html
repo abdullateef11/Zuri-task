@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+    <link rel="stylesheet" href="./page.css">
+</head>
+<style>
+   .body2{
+        background-image: url('https://www.velocitybroadband.co.zw/wp-content/uploads/2019/03/Technological-Advancement-700x394.jpg.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(187, 187, 186);
+         }
+         img{
+    border-radius: 40%;
+    box-shadow: 0px 1px 2px rgb(52, 146, 52);}
+
+    nav>a{
+    
+    background-color: rgb(84, 245, 210);
+    text-align: end;
+    color: rgb(179, 32, 57);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 6px ;
+    margin: 1px;}
+
+    nav>a:hover{
+    
+    background-color: rgb(242, 245, 84);
+    }
+    div{
+        background: none;
+    }
+    table{
+    border-spacing:15px; 
+    margin-right:40px;
+    margin-left: 40px;
+    border: 10px; 
+    border-radius: 4px;}
+   input,select{
+        border-radius: 10px;
+        border-color: rgb(189, 121, 121);
+    }
+</style>
+<body class="body2">
+    <nav id="tab"><a href="./about me.html"> HOME PAGE</a>
+        <a href="./Registration page.html">REGISTRATION</a>
+        <a href="./login page.html">LOGIN</a>
+        <a href="./contact page.html">CONTACT</a></nav>
+    <main><header class="title"><h2><i> SIGN UP</i></h2></header>
+    
+    <form action="">
+        <table >
+        <tr>
+            <td><label for="Fname">FIRST NAME:</label></td>
+        <td><input type="text" id="firstname" required> </td>
+
+        <td><label for="Lname">LAST NAME:</label></td>
+            <td><input type="text" id="lastname"  required> </td>
+        </tr>
+        <tr>
+            
+            </tr>
+           <tr>
+            <td><label for="pnum">PHONE-NUMBER:</label></td> 
+            <td><input type="number" id="pnumber" value="pnumber" required pattern="[0-9]{3}.[0-9]{4}.[0-9]{4}"></td>
+            
+            <td><label for="gender">GENDER:</label></td>
+            <td>
+             <select name="gender" id="gender">
+                 <option value="gendertype">Male</option>
+                 <option value="gendertype">Female</option>
+                 <option value="gendertype">Prefer not to say</option>
+             </select>
+            </td>
+        </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td><label for="country">COUNTRY:</label></td> 
+                <td><input type="text" id="country" value="" required></td>
+               
+                    <td><label for="province">STATE/PROVINCE:</label></td> 
+                    <td><input type="text" id="state" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">MAIL:</label></td> 
+                        <td><input type="text" id="mail" value="" required></td>
+                        </tr>
+
+                <tr>
+                  <td><label for="pass">PASSWORD:</label></td> 
+                        <td><input type="text" id="pass" value=""   minlength="8" maxlength="19" required></td>
+                      
+                        <td><label for="comfpass">CONFIRM PASSWORD:</label></td> 
+                        <td><input type="text" id="comfpass" value=""  minlength="8" maxlength="19" required-pattern="(pass)=(comfpass)"></td>
+                    </tr>
+                   <tr><td> <div class="submt"> <input type="submit" value="SUBMIT"></div></td></tr>
+                
+        </table>
+    </form><hr>
+   
+   <section style="text-align: center; color: rgb(5, 4, 68); background-color: rgb(193, 194, 196); width: 20%; padding-bottom: 20px;border-radius: 8px; margin-left: 550px;" > <h4><i> Social media: </i></h4>
+    <div>
+        <a href="www.facebook.com"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/800px-Facebook_f_logo_%282021%29.svg.png" alt="facebook handle" width="25px" height="25px"></a>
+        <a href="www.twitter.com"><img src="https://www.computerhope.com/jargon/t/twitter.png" alt="twitter handle" width="25px" height="25px"></a>
+        <a href="www.instagram.com"><img src="https://parentzone.org.uk/sites/default/files/Instagram%20logo.jpg" alt="instagram handle" width="25px" height="25px"></a>
+        <a href="www.linkdin.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" alt="linkdin handle" width="25px" height="25px"></a>
+    </div>
+
+</section>
+</main><br><br><br><br><br>
+<footer style="text-align:center ; color:rgb(12, 3, 24)">(C) 2022</footer>
+</body>
+</html>
